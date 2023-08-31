@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #fff;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.sidemenu {
+  width: 240px;
+  padding: 10px;
+  background-color: #092215;
+
+}
+
+.chatbox {
+  flex: 1;
+  background-color: #ffffff;
+  position: relative;
+  color: black;
+
+}
+
+.smbutton {
+  margin-left: -5px;
+  margin-top: 50px;
+}
+
+p {
+  width: 50px;
+  text-align: center;
+  margin-left: 20px;
+  width: 190px;
+
+
+}
+
+.logo {
+  background: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 40px;
+  margin-left: 25px;
+}
+
+.image {
+  padding-top: -50px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  background-color:#043b1f;
+  color: #fff;
+  width: 190px;
+  border-radius: 10px;
+  
+
+  
+}
+.file-input {
+  display: none; /* Hide the default file input */
+}
+
+
+#image {
+ 
+  margin-bottom: 70px;
+  margin-left: -440px;
+  margin-top: 90px;
+  text-align: center; 
+  
+}
+
+.upload {
+ 
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+  
+}
+
+
+.upload-button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: -60px;
+}
+
+.uploaded-image {
+  margin-top: 10px;
+  text-align: center; 
+  margin-left: 30px;/* Center the content */
+}
+
+.upload {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  margin-left: 40px;
+  margin-bottom: 130px;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#login{
+  margin-left: -1300px;
+  background-color: #3498db;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  
+
+}
+#signin{
+  margin-left: -1300px;
+
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.inpholder {
+  
+  padding: 24px;
+  position: absolute;
+  bottom: 0;
+  display:inline;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.chattext {
+  background-color: #092215;
+  width: 90%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin: 12px;
+  outline: none;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.chat-log {
+  text-align: left;
+}
+
+
+
+.c-msg {
+  background: #01381c;
+}
+
+.center {
+  display: flex;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 480px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.avtar {
+  background: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 40px;
+  padding-bottom: 4px;
+
+
+}
+
+.msg {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100px;
+  height: 40px;
+  padding-top: 9px;
+  color: #fff;
+
+}
+
+
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
